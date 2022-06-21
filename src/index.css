@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --page-background: hsl(218, 23%, 16%);
+  --card-background: hsl(217, 19%, 24%);
+  --advice-number-text: hsl(150, 100%, 66%);
+  --advice-text-color: hsl(193, 38%, 86%);
+  --dice-color: hsl(150, 100%, 66%);
+  font-family: 'Manrope', sans-serif;
+}
+.title{
+  color: var(--dice-color);
+}
+.dicebg{
+  background-color: var(--dice-color);
+}
+.advice-text{
+  color: var(--advice-text-color);
+}
+#dice {
+  background-color: var(--dice-color);
+  border-radius: 50%;
+  padding: 15px 16px 12px;
+  border: 0;
+  cursor: pointer;
+  margin: 0 auto -50px;
+}
