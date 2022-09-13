@@ -29,7 +29,6 @@ jobs:
        
         # install , build & deploy to vercel .
     - run: npm install
-    - run: npm run build --if-present
     - run: npm audit fix --force
     - name: Deploy to Vercel
       uses: amondnet/vercel-action@v20
