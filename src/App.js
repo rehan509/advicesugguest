@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import icondice from "./icon-dice.svg";
 import logdivider from "./pattern-divider-desktop.svg";
